@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CurioSD</title>
+</head>
+<body>
+    <header id="OutofOrder">
+
+        <div class="wrapper">
+            <div class="headbalk">
+                <div class="logo">
+                        <img width="120px" src="images/curiogeellogo.png" alt="">
+                </div>
+                <div class="navbalk">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="vakken.html">Vakken</a>
+                        <a href="rooster.html">Rooster</a>
+                        <a href="docenten.html">Docenten</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="homepage">
+            <div class="homeimage">
+                <div class="wrapper">
+                    <div class="overdeopleiding">
+                        <div class="hometitle">
+                            <h2>Curio Breda Software Development</h2>
+                        </div>
+                        <div class="hometext">
+                            <h3>Over de opleiding</h3>
+                            <p class="opleidingtext">Welkom bij de opleiding Curio Software Developer.</p>
+                            <p class="opleidingtext">Op deze opleiding ga je leren hoe je software moet gaan maken/verbeteren voor bedrijfen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+
+            <p> &copy;Kenji 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("headersticky");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>

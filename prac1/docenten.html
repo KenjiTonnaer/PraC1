@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CurioSD</title>
+</head>
+<body>
+    <header id="OutofOrder">
+
+        <div class="wrapper">
+            <div class="headbalk">
+                <div class="logo">
+                    <img width="120px" src="images/curiogeellogo.png" alt="">
+                </div>
+                <div class="navbalk">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="vakken.html">Vakken</a>
+                        <a href="rooster.html">Rooster</a>
+                        <a href="docenten.html">Docenten</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="homepage">
+
+            <div class="wrapper">
+                <div class="docentenpage">
+                    <div class="docentenhometitle">
+                        <h2>Docenten</h2>
+                        <p>Dit zijn de docenten die ik had voor het eerste leerjaar Curio Software Developer</p>
+                    </div>
+                    <div class="docenten">
+                        <div class="docenten-item">
+                            <div class="docenten-image">
+                                <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            </div>
+                            <div class="docententext">
+                                <h3>Joep van Gils</h3>
+                                <p>nederlands</p>
+                            </div>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Kasar Mustafa</h3>
+                            <p>Engels</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Laurens Pijnenburg</h3>
+                            <p>Pra</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Laurens Pijnenburg</h3>
+                            <p>Pro</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Ine Vermeer</h3>
+                            <p>Web</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Micheal de Jong</h3>
+                            <p>Web</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Krist den Dekker</h3>
+                            <p>Native</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Onbekend</h3>
+                            <p>Div</p>
+                            <p>Onbekend omdat ik z'n naam niet meer weet</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Steven van Roosendaal</h3>
+                            <p>Codelab</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Bob Slekens</h3>
+                            <p>Rekenen</p>
+                        </div>
+                        <div class="docenten-item">
+                            <img height="210px" src="images/blankpfp.png" alt="pfp">
+                            <h3>Michel Meeuwesen</h3>
+                            <p>Algo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+
+            <p> &copy;Kenji 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("headersticky");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>

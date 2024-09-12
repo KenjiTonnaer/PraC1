@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CurioSD</title>
+</head>
+<body>
+    <header id="ou">
+
+        <div class="wrapper">
+            <div class="headbalk">
+                <div class="logo">
+                    <img width="120px" src="images/curiogeellogo.png" alt="">
+                </div>
+                <div class="navbalk">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="vakken.html">Vakken</a>
+                        <a href="rooster.html">Rooster</a>
+                        <a href="docenten.html">Docenten</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="roosterpage-img">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="emptybox">
+
+                    </div>
+                    <div class="container-rooster">
+                        <h2>Rooster 1ste jaars</h2>
+                        <p>Dit is een voorbeeld van het rooster dat je kunt krijgen in je eerste leerjaar</p>
+                    </div>
+                    <div class="rooster">
+                        <img width="800px" src="images/Rooster eerste leerjaar.png" alt="Rooster">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+
+            <p> &copy;Kenji 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("headersticky");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>

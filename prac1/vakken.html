@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CurioSD</title>
+</head>
+<body>
+    <header id="OutofOrder">
+
+        <div class="wrapper">
+            <div class="headbalk">
+                <div class="logo">
+                    <img width="120px" src="images/curiogeellogo.png" alt="">
+                </div>
+                <div class="navbalk">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="vakken.html">Vakken</a>
+                        <a href="rooster.html">Rooster</a>
+                        <a href="docenten.html">Docenten</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="homepage">
+
+            <div class="wrapper">
+                <div class="vakcontainer">
+                    <div class="vakkentitle">
+                        <h2>Vakken</h2>
+                        <p>Dit zijn alle vakken die je zal krijgen in je eerste jaar Software Developer</p>
+                    </div>
+                    <div class="vakvak">
+                        <div class="vakvakContainer">
+                            <div class="vak">
+                                <h3>engels</h3>
+                                <p>Engels is nog steeds hetzelfde als op de middelbare</p>
+                            </div>
+                            <div class="vak">
+                                <h3>nederlands</h3>
+                                <p>Nederlands is ook niet echt veranderd sinds de middelbare school</p>
+                            </div>
+                            <div class="vak">
+                                <h3>pra</h3>
+                                <p>Pra staat voor praktijk. In dit vak ga je vooral werken met alles wat je geleerd heb in de andere lessen</p>
+                            </div>
+
+                             <div class="vak">
+                                <h3>div</h3>
+                                <p>Bij dit vak gaat het meer over het praktisch omgaan van je laptop/computer</p>
+                            </div>
+                        </div>
+                        <div class="vakvakContainer">
+                            <div class="vak">
+                                <h3>Codelab</h3>
+                                <p>Codelab is een vak om je skills in te kunnen verbeteren om welke manier jij wilt of aankomend huiswerk te maken</p>
+                            </div>
+                            <div class="vak">
+                                <h3>rekenen</h3>
+                                <p>rekenen krijg je ergens in het begin van het jaar een oefentoets als je hoog genoeg scoort mag je ingeroosterd worden voor je eind examen</p>
+                            </div>
+                            <div class="vak">
+                                <h3>algo</h3>
+                                <p>Je leert iets over getallen</p>
+                            </div>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+
+            <p> &copy;Kenji 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("headersticky");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>

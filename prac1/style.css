@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(images/therheijdenseweh.jpg);
+    background-size: cover;
+}
+header{
+    background-color: #0050ff ;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+.headbalk{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items:center;
+}
+.opleidingtext{
+    margin-top: 5px;
+}
+.logo{
+    color: #ffcc00;
+    padding-right: 8%;
+}
+.navbalk a{
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 50px;
+}
+.homepage{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.docentenhometitle{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #ffcc00;
+    background-color: #0050ff;
+    padding: 15px;
+    padding-bottom: 20px;
+    font-size: large;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.docentenpage{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.docenten{
+    background-color: #0050ff;
+    color: #ffcc00;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: fit-content;
+    grid-gap: 20px;
+
+}
+.docenten-item{
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 11px;
+
+}
+.docenten-item img{
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content:space-around ;
+    padding-top: 5%;
+}
+.roosterpage-img{
+    background-image: url(images/therheijdenseweh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container-rooster{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 5px;
+    background-color: #0050ff;
+    color: #ffcc00;
+    font-size: larger;
+}
+.container-rooster p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.rooster{
+    margin-left: 10px;
+}
+.rooster img{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+.vakcontainer{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    margin-bottom: 14%;
+    margin-top: 5%;
+}
+.hometitle{
+    font-size: xx-large;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0050ff;
+    color: #ffcc00;
+    padding: 10px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hometext{
+    color: #ffcc00;
+    background-color: #0050ff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    width: fit-content;
+    font-size: large;
+}
+.overdeopleiding{
+    margin-bottom: 25%;
+    margin-top: 18%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+.vakkentitle{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0050ff;
+    color: #ffcc00;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+}
+.vakvak{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0050ff;
+    margin-top: 2%;
+}
+.vakvakContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+}
+.vak{
+    font-size:x-large;
+    position: relative;
+    color: #ffcc00;
+    text-align: center;
+}
+footer{
+    background-color: #0050ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    color:#ffcc00 ;
+}
